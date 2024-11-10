@@ -1,0 +1,28 @@
+body{
+    background-color: #333;
+    font-family: Roboto;
+}
+
+.container{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 3px white solid;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    }
+
+.relogio span{
+    margin-right: 0,5rem;
+}
